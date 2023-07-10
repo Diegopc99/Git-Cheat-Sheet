@@ -29,6 +29,27 @@
     git reset --hard origin/<branch_name>
     ```
 
+## Fetch
+
+1. Retrieve the latest changes from a remote repo but don't modify the local branch:
+
+    ```bash
+    git fetch
+    ```
+    Check new local branches with:
+    ```bash
+    git branch -r
+    ```
+    This will show all origin/<branch_name> branches in the local repo.\
+    Check changes with:
+    ```bash
+    git log origin/<branch_name>
+    ```
+    or (if you want to see the modifications on another branch)
+    ```bash
+    git checkout origin/<branch_name>
+    ```
+
 ## Branch
 
 1. Create new branch and copy the contents to that branch:
