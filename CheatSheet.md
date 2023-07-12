@@ -108,7 +108,7 @@
     ```bash
     git rebase --abort
     ```
-    Once the rebase process is complit push the changes to the branch with:
+    Once the rebase process is completed, push the changes to the branch with:
     ```bash
     git push --force-with-lease origin <branch_name>
     ```
