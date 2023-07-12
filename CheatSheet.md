@@ -107,4 +107,10 @@
     If you need to abort:
     ```bash
     git rebase --abort
-    ``` 
+    ```
+    Once the rebase process is complit push the changes to the branch with:
+    ```bash
+    git push --force-with-lease origin <branch_name>
+    ```
+
+    
