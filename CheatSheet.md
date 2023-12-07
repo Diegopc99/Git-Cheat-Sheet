@@ -21,6 +21,14 @@
     ```bash
     git ls-files
     ```
+## Pull
+
+1. Remove all local changes, including untracked files (using stash):
+   ```bash
+   git stash push --include-untracked
+   git stash drop
+   git pull
+   ```
 
 ## Commit
 
